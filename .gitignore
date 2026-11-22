@@ -1,0 +1,19 @@
+# Git metadata
+.git/
+
+# Local configuration and secrets
+/config/config.php
+/config/database.php
+.env
+.env.*
+config.local.php
+
+# Private CV uploads and personal documents
+/uploads/cvs/*
+!/uploads/cvs/.htaccess
+!/uploads/cvs/README.txt
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
